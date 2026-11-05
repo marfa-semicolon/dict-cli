@@ -1,0 +1,39 @@
+#ring-links-box {
+    background-color: #d9e9f4;
+}
+
+#ring-links-box > a {
+    display: block;
+    padding: 10px 15px;
+    margin: 8px 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+#ring-links-box > div {
+    padding: 10px 15px;
+    margin: 8px 0;
+}
+
+#ring-links-box > a:before {
+    background-image: url(../images/entry/external-link-icon.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    width: 18px;
+    background-size: 18px auto;
+    content: "";
+    float: right;
+}
+
+#ring-links-box .android-app img {
+    height: 50px;
+}
+
+#ring-links-box .apple-app img {
+    height: 52px;
+    padding: 10px 0px 8px 8px;
+}
+
+.ring-links-buttons {
+    text-align: center;
+}

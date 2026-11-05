@@ -1,0 +1,301 @@
+.top-container + .pv-gs {
+    overflow: visible;
+}
+
+.sn-g .oup_icons {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #9E9E9E;
+    border-left: none;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right:3px;
+}
+
+ol .sn-g .oup_icons.open {
+    position:static;
+    font-size: 1.25em;
+    height:20px;
+}
+
+.sn-g .oup_icons:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+.sn-g .oup_icons:active {
+    text-decoration: none;
+    color: #333333;
+}
+
+.star-btn:before {
+    content: "\e60e";
+}
+
+/* wordlist-popup */
+
+.wordlist-popup * {
+    box-sizing: border-box;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 16px;
+}
+
+.wordlist-popup {
+    position: absolute;
+    bottom: 25px;
+    right: -10px;
+    width: 270px;
+    margin: 10px 0;
+    z-index: 6;
+    background: #fff;
+    border: 1px solid #00123e;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .18);
+    font-size: 14px;
+    text-align: left;
+    z-index: 20;
+    cursor: auto;
+}
+
+.wordlist-popup:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 11px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    bottom: -10px;
+    border-width: 10px 10px 0 10px;
+    border-color: #c5c5c5 transparent transparent transparent;
+}
+
+.wordlist-popup:hover {
+    color: #4577bf;
+}
+
+.wordlist-popup.under {
+    top: 25px;
+    bottom: auto;
+}
+
+.wordlist-popup.right {
+    right: auto;
+}
+
+.wordlist-popup.right:before {
+    right: auto;
+    left: 0;
+}
+
+.wordlist-popup.under:before {
+    bottom: auto;
+    top: -11px;
+    left: 1px;
+    border-width: 0 8px 10px 8px;
+    border-color: transparent transparent #c5c5c5 transparent;
+}
+
+.wordlist-popup .title {
+    font-weight: bold;
+    padding: 8px;
+    border-bottom: none;
+    margin: 0;
+    display: block;
+}
+
+.wordlist-popup .spinner {
+    display: table;
+    margin: 30px auto;
+}
+
+.wordlist-popup .header {
+    padding: 10px 8px;
+    border-bottom: 1px solid #00123e;
+    background-color: #ebf5ff;
+    color: #333333;
+    font-weight: bold;
+}
+
+.cross-btn:before {
+    content: "\ea0f";
+    font-size: 10px;
+    font-family: oup-icons;
+}
+
+.wordlist-popup ul {
+    max-height: 221px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.wordlist-popup li, .clear {
+    margin: 0;
+    clear: both;
+}
+
+.wordlist-popup li .wordlistname {
+    float: left;
+    text-decoration: none;
+    color: #004aac;
+    display: block;
+    padding: 8px;
+    text-overflow: ellipsis;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    height:40px;
+}
+
+.wordlist-popup li .wordlistname:hover {
+    text-decoration: underline;
+    background-color: #e2ecf7;
+}
+
+.wordlist-popup .oup_icons.add {
+    margin: 3px 5px;
+    float: right;
+    background-color: #4776ae;
+    color: #fff;
+    width: 34px;
+    height:34px;
+}
+
+.plus-btn:before {
+    content: "\e611";
+    font-family: oup-icons;
+}
+
+.wordlist-popup .footer {
+    border-top: solid 1px #00123e;
+    padding: 10px 8px;
+    background-color: #ecf5ff;
+    color: #333333;
+    font-weight: bold;
+}
+
+.wordlist-popup .wordlist-form {
+    padding-top:5px;
+}
+
+.wordlist-popup .wordlist-submit, .wordlist-popup .footer input[type='text'] {
+    height: 25px;
+    border-radius: 2px;
+}
+
+.wordlist-popup .wordlist-submit {
+    float: right;
+    height: 40px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #4776ae;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 3px solid #002147;
+    margin: 0px;
+    color: #ffffff;
+    white-space: nowrap;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wordlist-submit:hover {
+    background-color: #002147;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 3px solid #002147;
+    text-decoration: none;
+}
+
+.wordlist-popup .footer input[type='text'] {
+    width: 100%;
+    margin: 0;
+    padding: 8px;
+    border: solid 1px #00123e;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 3px;
+    text-overflow: ellipsis;
+}
+
+.wordlist-popup .error {
+    padding: 8px;
+    background: #FFEEF9;
+    color: #A9222D;
+    text-overflow: ellipsis;
+    width: 268px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.wordlist-popup .info {
+    padding: 8px;
+    background: #C3E5D2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    width: 268px;
+    color: #2A4C37;
+    font-weight:bold;
+    margin-bottom: 0px;
+}
+
+.popup-close {
+    color: #4577bf;
+    cursor:pointer;
+    float:right;
+    display: inline-block;
+}
+
+.header_title {
+    display: inline-block;
+    width: 180px;
+}
+
+.popup-close:hover {
+    text-decoration: underline;
+}
+
+.wordlist-popup .plus-btn {
+    line-height: 34px;
+    text-align:center;
+}
+
+.plus-btn:hover {
+    background-color: #002147;
+    border-radius:34px;
+    height: 34px;
+}
+
+.star-btn {
+    color: #4577bf;
+    border: none;
+    /*vertical-align: middle;*/
+    height:24px;
+    padding:1px;
+    margin-right: 5px;
+}
+
+.star-btn:hover {
+    color: #002147;
+}
+
+.star-btn:focus {
+    color: #002147;
+}
+
+a.open.oup_icons[title="Add to My Word Lists"] {
+    text-decoration: none;
+}
+/* end */
